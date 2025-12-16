@@ -1,0 +1,21 @@
+# ----------------------------------
+# Root .gitignore for Expense Tracker (Monorepo)
+# ----------------------------------
+
+# 1. Dependency Directories
+# Ignores all node_modules folders in the entire repo (backend/ and frontend/)
+node_modules/
+
+# 2. Secret Configuration Files
+# NEVER commit your MongoDB URI or JWT secrets!
+.env
+
+# 3. Build & Cache Output
+# The final production output folder of the frontend
+frontend/dist/
+
+# 4. OS and IDE Files
+# Ignore the entire WebStorm project configuration folder
+.idea/
+# Mac OS system files
+.DS_Store
