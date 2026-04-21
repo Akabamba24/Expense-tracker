@@ -13,6 +13,7 @@ node_modules/
 # 3. Build & Cache Output
 # The final production output folder of the frontend
 frontend/dist/
+*.log
 
 # 4. OS and IDE Files
 # Ignore the entire WebStorm project configuration folder
